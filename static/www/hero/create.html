@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Create Hero</title>
+    <link href="hero-create.css" rel="stylesheet"/>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Create your hero card !</legend>
+        <label for="form-name">Name</label>
+        <input id="form-name" name="name" placeholder="Hero name..." type="text"><br><br>
+        <label for="form-description">Description</label>
+        <input id="form-description" name="description" placeholder="Hero description..." type="text"><br><br>
+        <label for="form-imgUrl">Image URL</label>
+        <input id="form-imgUrl" name="imgUrl" placeholder="Hero super power..." type="text"><br><br>
+        <label for="form-hp">Hp</label>
+        <input id="form-hp" name="hp" placeholder="Hero hp..." type="number"><br><br>
+        <label for="form-energy">Energy</label>
+        <input id="form-energy" name="energy" placeholder="Hero energy..." type="number"><br><br>
+        <label for="form-attack">Attack</label>
+        <input id="form-attack" name="attack" placeholder="Hero attack..." type="number"><br><br>
+        <label for="form-defense">Defense</label>
+        <input id="form-defense" name="defense" placeholder="Hero defense..." type="number"><br><br>
+        <input class="button" onclick="createHero()" type="button" value="Create"/>
+    </fieldset>
+</form>
+<script src="hero-create.js" type="application/javascript"></script>
+</body>
+
+</html>

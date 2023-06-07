@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Home</title>
+    <link href="home.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<header class="header-bar">
+    <div class="left-corner">
+        <span class="amount" id="money"></span>
+    </div>
+    <div class="right-corner">
+        <i aria-hidden="true" class="fa fa-user user-icon"></i>
+        <span class="username" id="surname"></span>
+        <i aria-hidden="true" class="fa fa-sign-out signout-icon clickable" onclick="logout()"></i>
+    </div>
+</header>
+<div class="container">
+    <div class="button-row">
+        <button class="buy-btn" onclick="redirectToBuy()">
+            <i aria-hidden="true" class="fa fa-shopping-cart"></i>
+            <span class="btn-icon">Buy</span>
+        </button>
+        <button class="sell-btn" onclick="redirectToSell()">
+            <i aria-hidden="true" class="fa fa-money"></i>
+            <span class="btn-icon">Sell</span>
+        </button>
+    </div>
+    <div class="button-row">
+        <button class="play-btn" onclick="redirectToGame()">
+            <i aria-hidden="true" class="fa fa-gamepad"></i>
+            <span class="btn-icon">Play</span>
+        </button>
+    </div>
+</div>
+<script src="home.js" type="application/javascript"></script>
+</body>
+</html>

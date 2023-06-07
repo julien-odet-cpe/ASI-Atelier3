@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* HEADER */
+.header-bar {
+    background-color: #f2f2f2;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%
+}
+
+.left-corner {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.right-corner {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.amount {
+    font-weight: bold;
+}
+
+.username {
+    font-style: italic;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+/* BODY */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    max-width: 600px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-btn {
+    margin-right: 100px;
+}
+
+.sell-btn {
+    margin-left: 100px;
+}
+
+.play-btn {
+    margin-top: 50px;
+}
+
+.btn-icon {
+    margin-left: 15px;
+}
+
+.user-icon {
+    margin-right: 5px;
+}
+
+.signout-icon {
+    margin-left: 15px;
+}

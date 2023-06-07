@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Buy</title>
+    <link href="buy.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<header class="header-bar">
+    <div class="left-corner">
+        <span class="amount" id="money"></span>
+    </div>
+    <div class="center-text">
+        <span class="midText" id="midText">Buy</span>
+    </div>
+    <div class="right-corner">
+        <i aria-hidden="true" class="fa fa-user user-icon"></i>
+        <span class="username" id="surname"></span>
+        <i aria-hidden="true" class="fa fa-sign-out signout-icon clickable" onclick="logout()"></i>
+    </div>
+</header>
+<div class="main">
+    <div class="left-side">
+        <span class="market">Market</span>
+        <table id="heroTable">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>HP</th>
+                <th>Attack</th>
+                <th>Defense</th>
+                <th>Energy</th>
+                <th>Price</th>
+            </tr>
+        </table>
+    </div>
+    <div class="right-side" id="right-side-div">
+        <div class="card">
+            <h1 id="name"></h1>
+            <img id="image" alt="Hero image" />
+            <div class="description">
+                <p>Description :</p>
+                <p id="description"></p>
+            </div>
+            <div class="stat">
+                <p>Hp :</p>
+                <p id="hp"></p>
+            </div>
+            <div class="stat">
+                <p>Energy :</p>
+                <p id="energy"></p>
+            </div>
+            <div class="stat">
+                <p>Attack :</p>
+                <p id="attack"></p>
+            </div>
+            <div class="stat">
+                <p>Defense :</p>
+                <p id="defense"></p>
+            </div>
+        </div>
+        <button type="button" class="buy-bt" id="buy-bt" onclick="onBuy()">Buy</button>
+    </div>
+</div>
+<script src="buy.js" type="application/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat p {
+    margin-right: 10px;
+}
+
+#description {
+    font-style: italic;
+}
+
+#hp,
+#energy,
+#attack,
+#defense {
+    font-weight: bold;
+}
