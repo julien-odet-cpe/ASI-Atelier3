@@ -1,8 +1,10 @@
-# ASI-Atelier3
-4IRC ASI - FOEX - ODET - MATHIEU - JOVETIC
+# CPE Lyon - Module ASI - Atelier 3
 
+### Noms des membres du groupe
+- Pierre JOVETIC
+- Lucien MATHIEU
+- Julien ODET
+- Valentin FOEX
 
-On a les microservices qui fonctionnent avec postman, le reverse-proxy semble être correcte mais on a toujours les erreurs CORS.
-
-Dockerfile pour les serveurs nginx à build.
-Docker compose pour les microservices et bdd.
+### Éléments réalisés du cahier des charges
+Nous avons réalisés l'ensemble des éléments du cahier des charges :
