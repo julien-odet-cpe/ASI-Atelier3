@@ -1,0 +1,39 @@
+version: '3.1'
+
+services:
+
+  db-hero:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5432:5432 
+  
+  db-player:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5433:5432 
+
+  db-market:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5434:5432 
+  
+  db-game:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5435:5432 

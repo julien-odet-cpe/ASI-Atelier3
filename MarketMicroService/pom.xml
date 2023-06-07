@@ -8,11 +8,11 @@
         <version>3.1.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.hero</groupId>
-    <artifactId>HeroMicroService</artifactId>
+    <groupId>com.market</groupId>
+    <artifactId>MarketMicroService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>HeroMicroService</name>
-    <description>HeroMicroService</description>
+    <name>MarketMicroService</name>
+    <description>MarketMicroService</description>
     <properties>
         <java.version>20</java.version>
     </properties>
